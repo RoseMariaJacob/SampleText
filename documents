@@ -1,14 +1,9 @@
 pipeline {
     agent any
-    stages {
-        stage ('Build') {
-            steps {
-                sh 'echo Hello Build stage( july 7,2022'
-            }
-        }
+   
         stage ('Test') {
             steps {
-                sh 'echo hello Test stage'
+                sh 'Test stage'
             }
         }
     }
