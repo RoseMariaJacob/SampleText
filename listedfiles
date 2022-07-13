@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('textfile') {
+            steps {
+                echo 'This is a text file(7 july) welcome'
+            }
+        }
+    }
+}
