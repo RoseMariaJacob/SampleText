@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('textfile') {
             steps {
-                echo ' ip file!!'
+                echo ' ip file!'
             }
         }
     }
