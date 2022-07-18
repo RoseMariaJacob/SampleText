@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('textfile') {
             steps {
-                echo 'This is a text file (welcome)'
+                echo 'This is a text file (welcome) july 18'
             }
         }
     }
