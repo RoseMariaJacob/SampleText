@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('textfile') {
             steps {
-                echo ' dev file'
+                echo 'this is dev file'
             }
         }
     }
